@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: orange; */
+    /* align-items: center; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 70rem;
+    margin: 0px auto;
+    align-items: center;
+    background-color: #5C3566;
+}
+
+.section1 {
+
+}
+
+.section1 input, .addBtn {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(128, 124, 124);
+}
+.section1 #taskWriting {
+
+}
+
+.section1 #timeWriting {
+    /* width: 61px; */
+}
+
+.section2 {
+
+    width: 800px;
+    margin: 0px auto;
+    
+}
+
+.section2 #taskList {
+
+    list-style: none;
+
+}
+
+.section2 #taskList .task{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    background-color: #fff;
+    padding: 12px;
+    box-shadow: 0.5px 1px 1px 0.5px rgba(245, 242, 242, 0.3);
+    border-radius: 8px;
+
+}
+
+.task .taskText {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+/* shifitin the EDIT button beside the  X button */
+/* .task .taskEdit {
+    color: orchid;
+    font-weight: bolder;
+    /* background: #000; 
+    padding: 0px 14px;
+    width: 50px;
+    transition: 0.75s;
+    align-items: right;
+} */
+
+.task .taskEdit:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+
+
+}
+
+.task .taskDelete {
+    color: red;
+    font-weight: bolder;
+    padding: 0px 0px 0px 14px;
+    border-left: 1px solid black;
+    transition: 0.75s;
+    font-size: 20px;
+
+}
+
+.task .taskDelete:hover {
+    color: rgb(233, 52, 52);
+    cursor: pointer;
+
+}
+
+/* ----------------------Scetion 3----------------------- */
+
+.sect3 {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.sect3 #listDone {
+    list-style: none;
+}
+
+.sect3 #listDone .done {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    background-color: #fff;
+    padding: 12px;
+    box-shadow: 0.5px 1px 1px 0.5px rgba(245, 242, 242, 0.3);
+    border-radius: 8px;
+}
+
+.done .doneText {
+    text-decoration-line: line-through;
+}
+
+.done .accomplished {
+    color: green;
+    font-weight: bolder;
+    padding: 0px 0px 0px 14px;
+    transition: 0.75s;
+    font-size: 20px;
+}
+
+@media (max-width:113px){
+    .section2, .sect3 {
+
+        /* width: 100%;
+        margin: 0px auto; */
+        
+    }
+}

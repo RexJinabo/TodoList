@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>todo</title>
+    <link rel="stylesheet" href="todocss.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="section1">
+
+        <h1>
+          Welcome: Rex Daniel
+  
+          <div class="timer">
+            00 : 00 : 00
+          </div>
+        </h1>
+   
+        <h3>What are you to do ?</h3>
+  
+        <input type="text" id="taskWriting" placeholder="-- enter activity --">
+        <input type="time" placeholder="00 : 00" id="timeWriting">
+        <button class="addBtn">+</button>
+      </div>
+  
+      <div class="section2">
+        <h1>Activities</h1><hr>
+  
+        <ul id='taskList' style="margin-top: 1rem;">
+          <!-- <li class="task">
+            <div class="taskTime">06:30</div>
+            <p class="taskText">kjdkjsdkjsjkhdjkhsjd</p>
+            <div class="taskDelete">X</div>            
+          </li>
+          <li class="task">
+            <div class="taskTime">06:30</div>
+            <p class="taskText">kjdkjsdkjsjkhdjkhsjd</p>
+            <div class="taskDelete">X</div>            
+          </li>
+          <li class="task">
+            <div class="taskTime">06:30</div>
+            <p class="taskText">kjdkjsdkjsjkhdjkhsjd!!!!!!!!!</p>
+            <div class="taskDelete">X</div>            
+          </li>  -->
+        </ul>
+      </div>
+
+      <div class="sect3">
+        <h1>Accomplished Task</h1><hr>
+        <ul id="listDone" style="margin-top: 1rem; margin-bottom: 1rem;">
+            <!-- <li class="done">
+              <p class="doneText">kjdkjsdkjsjkhdjkhsjd!!!!!!!!!</p>
+              <div class='accomplished'>Accomplished</div>            
+            </li> -->
+          </ul>
+      </div>
+
+    </div>
+    
+ <script src="todojs.js"></script>
+  </body>
+</html>
